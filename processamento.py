@@ -11,7 +11,24 @@ def FiltroDeInconformidades(lista_completa):
     
     return lista_limpa
 
+def CalculoMedia(lista_limpa):
+    lista_com_media = []
+    
+    for nome, notas in lista_limpa:
+        media = sum(notas) / len(notas) if len(notas) > 0 else 0
+        lista_com_media.append((nome, notas, media))
+        
+    return lista_com_media
 
+def MelhorMedia(listas_medias):
+    top_student = ""
+    maior_media = 0
+    for nome, notas, media in listas_medias:
+        if media > maior_media:
+            maior_media = media
+            top_student = nome
+    
+    return top_student,maior_media
 
 def CalculoMedia(lista_limpa):
     lista_com_media = []

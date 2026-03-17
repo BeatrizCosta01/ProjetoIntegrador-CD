@@ -9,5 +9,7 @@ dados_alunos = [
 ]
 
 dadosLimpos = processamento.FiltroDeInconformidades(dados_alunos) 
+dados = processamento.CalculoMedia(dadosLimpos)
+top_student = processamento.MelhorMedia(dados)
 
-print(processamento.CalculoMedia(dadosLimpos)) 
+
