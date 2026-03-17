@@ -29,3 +29,14 @@ def MediaEBaixa(lista_media):
             categoria = 'APROVADO'
         lista_com_categoria.append((nome, notas, media, categoria))
     return lista_com_categoria
+
+def MelhorMedia(listas_medias):
+    top_student = ""
+    maior_media = 0
+    for nome, notas, media in listas_medias:
+        if media > maior_media:
+            maior_media = media
+            top_student = nome
+    
+    return top_student,maior_media
+
