@@ -26,6 +26,8 @@ Projeto Integrador entre as metérias Versionamento, Lógica de Programação e 
 - RNF03: O processamento deve garantir que dados corrompidos não interrompam a execução ou gerem médias falsas.
 - RNF04: O repositório deve conter um arquivo README.md com requisitos, Kanban e Mapa de Empatia.
 
+---
+
 ## Kanban no Trello
 ```bash
 https://trello.com/invite/b/69b886a634563dfe89d2f0f9/ATTId914bb208702316647a7aedfd629b017A49AE01C/kanban-quadro-modelo
@@ -33,4 +35,4 @@ https://trello.com/invite/b/69b886a634563dfe89d2f0f9/ATTId914bb208702316647a7aed
 --- 
 ## Mapa da Empatia
 <img width="1520" height="680" alt="Pastel Tabs Customer Empathy Map Brainstorm" src="https://github.com/user-attachments/assets/dec5ddbd-2b06-446c-85de-f1d013ad4b96" />
---- 
+
