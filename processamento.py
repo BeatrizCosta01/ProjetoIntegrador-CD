@@ -30,12 +30,13 @@ def MelhorMedia(listas_medias):
     
     return top_student,maior_media
 
-def CalculoMedia(lista_limpa):
-    lista_com_media = []
-    
-    for nome, notas in lista_limpa:
-        media = sum(notas) / len(notas) if len(notas) > 0 else 0
-        lista_com_media.append((nome, notas, media))
-        
-    return lista_com_media
+def MediaEBaixa(lista_media):
+    lista_com_categoria = []
+    for nome, notas, media in lista_media:
+        if media < 7:
+            categoria = 'REPROVADO'
+        else:
+            categoria = 'APROVADO'
+        lista_com_categoria.append((nome, notas, media, categoria))
+    return lista_com_categoria
 
