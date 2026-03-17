@@ -20,3 +20,12 @@ def CalculoMedia(lista_limpa):
         
     return lista_com_media
 
+def MediaEBaixa(lista_media):
+    lista_com_categoria = []
+    for nome, notas, media in lista_media:
+        if media < 7:
+            categoria = 'REPROVADO'
+        else:
+            categoria = 'APROVADO'
+        lista_com_categoria.append((nome, notas, media, categoria))
+    return lista_com_categoria

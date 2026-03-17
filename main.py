@@ -9,6 +9,7 @@ dados_alunos = [
 ]
 
 dadosLimpos = processamento.FiltroDeInconformidades(dados_alunos) 
-print(processamento.CalculoMedia(dadosLimpos)) 
+dados = processamento.CalculoMedia(dadosLimpos)
+dados = processamento.MediaEBaixa(dados)
 
 
