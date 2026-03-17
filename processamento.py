@@ -20,3 +20,13 @@ def CalculoMedia(lista_limpa):
         
     return lista_com_media
 
+def MelhorMedia(listas_medias):
+    top_studant = ""
+    maior_media = 0
+    for nome, notas, media in listas_medias:
+        if media > maior_media:
+            maior_media = media
+            top_studant = nome
+    
+    return top_studant,maior_media
+
