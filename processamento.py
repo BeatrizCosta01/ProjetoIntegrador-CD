@@ -11,5 +11,12 @@ def FiltroDeInconformidades(lista_completa):
     
     return lista_limpa
 
-
+def CalculoMedia(lista_limpa):
+    lista_com_media = []
+    
+    for nome, notas in lista_limpa:
+        media = sum(notas) / len(notas) if len(notas) > 0 else 0
+        lista_com_media.append((nome, notas, media))
+        
+    return lista_com_media
 
