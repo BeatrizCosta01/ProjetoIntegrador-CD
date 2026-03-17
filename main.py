@@ -8,4 +8,6 @@ dados_alunos = [
     ("Elena Costa", [8.0, 8.0, 8.5])
 ]
 
-print(processamento.FiltroDeInconformidades(dados_alunos)) 
+dadosLimpos = processamento.FiltroDeInconformidades(dados_alunos) 
+
+print(processamento.CalculoMedia(dadosLimpos)) 
