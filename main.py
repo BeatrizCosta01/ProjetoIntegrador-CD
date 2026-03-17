@@ -11,5 +11,5 @@ dados_alunos = [
 dadosLimpos = processamento.FiltroDeInconformidades(dados_alunos) 
 dados = processamento.CalculoMedia(dadosLimpos)
 
-top_studant = processamento.MelhorMedia(dados)
+top_student = processamento.MelhorMedia(dados)
 
