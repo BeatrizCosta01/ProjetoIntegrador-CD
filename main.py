@@ -8,9 +8,12 @@ dados_alunos = [
     ("Elena Costa", [8.0, 8.0, 8.5])
 ]
 
-dadosLimpos = processamento.FiltroDeInconformidades(dados_alunos) 
-dados = processamento.CalculoMedia(dadosLimpos)
-dados = processamento.MediaEBaixa(dados)
-top_student = processamento.MelhorMedia(dados)
+def Execussao():
+    print('Executando Sistema de Notas Senai...')
+    dadosLimpos = processamento.FiltroDeInconformidades(dados_alunos) 
+    dados = processamento.CalculoMedia(dadosLimpos)
+    dados = processamento.MediaEBaixa(dados)
+    top_student = processamento.MelhorMedia(dados)
+    processamento.Relatorio(dados,top_student)
 
-
+Execussao()
