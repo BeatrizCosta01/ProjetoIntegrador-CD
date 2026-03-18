@@ -1,4 +1,5 @@
 # ProjetoIntegrador-CD
+
 Projeto Integrador entre as metérias Versionamento, Lógica de Programação e Metodologias Ágeis
 
 ---
@@ -32,6 +33,8 @@ Projeto Integrador entre as metérias Versionamento, Lógica de Programação e 
 ```bash
 https://trello.com/invite/b/69b886a634563dfe89d2f0f9/ATTId914bb208702316647a7aedfd629b017A49AE01C/kanban-quadro-modelo
 ```
+<img width="1022" height="612" alt="image" src="https://github.com/user-attachments/assets/fd21a055-840f-4653-ad70-52cc045cb4ce" />
+
 --- 
 ## Mapa da Empatia
 <img width="1520" height="680" alt="Pastel Tabs Customer Empathy Map Brainstorm" src="https://github.com/user-attachments/assets/dec5ddbd-2b06-446c-85de-f1d013ad4b96" />
