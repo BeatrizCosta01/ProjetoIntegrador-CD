@@ -20,16 +20,6 @@ def CalculoMedia(lista_limpa):
         
     return lista_com_media
 
-def MelhorMedia(listas_medias):
-    top_student = ""
-    maior_media = 0
-    for nome, notas, media in listas_medias:
-        if media > maior_media:
-            maior_media = media
-            top_student = nome
-    
-    return top_student,maior_media
-
 def MediaEBaixa(lista_media):
     lista_com_categoria = []
     for nome, notas, media in lista_media:
@@ -39,4 +29,25 @@ def MediaEBaixa(lista_media):
             categoria = 'APROVADO'
         lista_com_categoria.append((nome, notas, media, categoria))
     return lista_com_categoria
+
+def MelhorMedia(listas_medias):
+    top_student = ""
+    maior_media = 0
+    for nome,notas, media, categoria in listas_medias:
+        if media > maior_media:
+            maior_media = media
+            top_student = nome
+    
+    return top_student,maior_media
+
+
+def Relatorio(dados, top_student):
+    with open("Relatorio.txt", "w", encoding="utf-8") as f:
+        f.write(" RELATÓRIO DE DESEMPENHO ACADÊMICO \n\n")
+        for nome, notas, media, status in dados:
+            f.write(f"Aluno: {nome} Media: {media:.2f} | Status: {status}\n")
+        
+        f.write('-' * 60 )
+
+        f.write(f'\nTOP STUDENT: {top_student[0]} com média de {top_student[1]:.2f}')
 
