@@ -1,0 +1,9 @@
+ RELATÓRIO DE DESEMPENHO ACADÊMICO 
+
+Aluno: Ana Silva| Media: 8.33 | Status: APROVADO
+Aluno: Bruno Oliveira| Media: 6.17 | Status: REPROVADO
+Aluno: Carla Souza| Media: 9.83 | Status: APROVADO
+Aluno: Diego Santos| Media: 5.17 | Status: REPROVADO
+Aluno: Elena Costa| Media: 8.17 | Status: APROVADO
+------------------------------------------------------------
+TOP STUDENT: Carla Souza com média de 9.83

@@ -45,7 +45,7 @@ def Relatorio(dados, top_student):
     with open("Relatorio.txt", "w", encoding="utf-8") as f:
         f.write(" RELATÓRIO DE DESEMPENHO ACADÊMICO \n\n")
         for nome, notas, media, status in dados:
-            f.write(f"Aluno: {nome} Media: {media:.2f} | Status: {status}\n")
+            f.write(f"Aluno: {nome}| Media: {media:.2f} | Status: {status}\n")
         
         f.write('-' * 60 )
 
